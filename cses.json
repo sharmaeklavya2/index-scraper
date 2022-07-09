@@ -1,0 +1,16 @@
+{
+"metadata": {
+    "title": "CSES Problemset"
+},
+"index": {
+    "url": "https://cses.fi/problemset/",
+    "entryCSS": "li.task > a"
+},
+"page": {
+    "contentCSS": ".content",
+    "tagsToRemove": ["script", "title"]
+},
+"extensions": {
+    "mathjax": "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"
+}
+}

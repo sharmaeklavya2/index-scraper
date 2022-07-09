@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>{% if title %}{{title}}{% else %}{{id}}{% endif %}</title>
+<link rel="stylesheet" href="style.css" />
+<meta name="color-scheme" content="light dark" />
+{% if 'mathjax' in extensions %}
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+    "HTML-CSS": {scale: 90, preferredFont: "TeX", availableFonts: ["TeX"]},
+    MathMenu: {showLocale: false}
+});
+</script>
+<script type="text/javascript" async="async" src="{{extensions['mathjax']}}"></script>
+{% endif %}
+</head>
+
+<body>
+<div class="header">
+<a class="headeritem" href="index.html">Index</a>
+<a class="headeritem" href="{{url}}">Original</a>
+</div>
+<main>
+<h1>{% if title %}{{title}}{% else %}{{id}}{% endif %}</h1>
+{{content}}
+</main>
+</body>
+</html>

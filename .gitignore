@@ -1,0 +1,13 @@
+*.pyc
+__pycache__
+.mypy_cache
+/readme.html
+
+secret
+output
+
+*~
+*.sw[po]
+Thumbs.db
+Desktop.ini
+.DS_Store
