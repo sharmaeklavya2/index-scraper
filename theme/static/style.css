@@ -26,7 +26,9 @@ body {
     --link-color: #1a0dab;
     --vlink-color: #681da8;
     --text-danger: #dc3545;
+    --text-warning: #ffc107;
     --text-success: #198754;
+    --text-secondary: #888;
     --very-light-tint: rgba(0, 0, 0, 0.02);
     --light-tint: rgba(0, 0, 0, 0.05);
     --medium-tint: rgba(0, 0, 0, 0.1);
@@ -35,11 +37,12 @@ body {
 @media (prefers-color-scheme: dark) {
     body {
         background: #1b1e20;
-        --text-color: #c0c0c0;
-        --emph-color: #e1e1e1;
+        --text-color: #c8c8c8;
+        --emph-color: #e4e4e4;
         --link-color: #8ab4f8;
         --vlink-color: #c58af9;
         --text-danger: #e74c3c;
+        --text-warning: #f39c12;
         --text-success: #00bc8c;
         --very-light-tint: rgba(255, 255, 255, 0.02);
         --light-tint: rgba(255, 255, 255, 0.05);
